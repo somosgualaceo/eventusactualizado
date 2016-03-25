@@ -1,0 +1,11 @@
+-instalar requirements.txt con este comando ubicarse dentro de la carpeta que contenga.
+ pip install -r requirements.txt.
+
+-crear base de datos pstgresql via consola. abrir sql shell
+https://www.youtube.com/watch?v=GKwHvPSweRc
+
+-borrar carpetas de migraciones(migrations) en todas las app.
+-correr el settings local con este comando
+python manage.py migrate --settings=eventus.settings.local
+- correr la aplicacion desde el settings local
+python manage.py runserver --settings=eventus.settings.local
